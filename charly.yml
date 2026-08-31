@@ -1,7 +1,7 @@
 version: 2026.232.0520
 charly-jupyter:
     candy:
-        version: 2026.218.1200
+        version: 2026.243.0909
         description: |-
             Metadata concept candy owning the charly-jupyter skills whose names have no namesake candy (jupyter dev/data-science images). Owns its family's `skill:` kind entities (sibling nodes in this file) — the
             the plugins→candies migration; candy/plugin-marketplace regenerates the marketplace
@@ -107,7 +107,7 @@ jupyter-layer-skill:
               candy:
                 - agent-forwarding
                 - jupyter
-                - '@github.com/opencharly/pod-dbus:v2026.235.2115'
+                - '@github.com/opencharly/pod-dbus:vTAG'
                 - charly
               ports:
                 - "8888:8888"
@@ -410,7 +410,7 @@ jupyter-ml-notebook-skill:
                 - notebook-ollama
                 - notebook-llm-on-supercomputers
                 - notebook-openrouter
-                - '@github.com/opencharly/pod-dbus:v2026.235.2115'
+                - '@github.com/opencharly/pod-dbus:vTAG'
                 - charly
               ports:
                 - "8888:8888"
