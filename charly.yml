@@ -107,7 +107,7 @@ jupyter-layer-skill:
               candy:
                 - agent-forwarding
                 - jupyter
-                - '@github.com/opencharly/pod-dbus:vTAG'
+                - '@github.com/opencharly/pod-dbus'
                 - charly
               ports:
                 - "8888:8888"
@@ -410,7 +410,7 @@ jupyter-ml-notebook-skill:
                 - notebook-ollama
                 - notebook-llm-on-supercomputers
                 - notebook-openrouter
-                - '@github.com/opencharly/pod-dbus:vTAG'
+                - '@github.com/opencharly/pod-dbus'
                 - charly
               ports:
                 - "8888:8888"
